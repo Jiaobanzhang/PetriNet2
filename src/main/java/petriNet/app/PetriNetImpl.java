@@ -12,7 +12,7 @@ import java.util.List;
  * 
  */
 
- class PetriNetImpl implements PetriNet {
+public class PetriNetImpl implements PetriNet {
     
     private List<Place> places;
     private List<Arc> arcs;

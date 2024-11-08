@@ -9,7 +9,7 @@ package petriNet.app;
  * @version: v1.0
  */
 
-class ArcOut extends Arc {
+public class ArcOut extends Arc {
 
     public ArcOut(int weight, Place place) {
         super(weight, place);

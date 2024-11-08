@@ -10,7 +10,7 @@ package petriNet.app;
  * 
  */
 
-class Place {
+public class Place {
     private int token;
 
     public Place() {
