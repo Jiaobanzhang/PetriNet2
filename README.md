@@ -91,6 +91,18 @@ petriNet.addTransition(transition);
 petriNet.fireAll();
 ```
 
+## Test:
+
+### Object:
+
+Use JUnit to test all methods in all classes to ensure the accuracy of the code.
+
+### Instructions:
+
+Click the green arrow on the left to test the function. If the Test Result is green at the end, the function has been successfully tested.
+
+![截屏2024-11-08 23.30.08](https://p.ipic.vip/67qroi.png)
+
 ## Class Descriptions
 
 ### Arc
@@ -118,7 +130,7 @@ A specialized input arc that only allows the transition if the `Place` has zero 
 
 - Java Development Kit (JDK) 8 or later
 - Maven (for building and testing)
-- Java IDE (e.g., Eclipse, IntelliJ IDEA)
+- Java IDE (e.g.,IntelliJ IDEA,  Eclipse)
 
 ## Authors
 
