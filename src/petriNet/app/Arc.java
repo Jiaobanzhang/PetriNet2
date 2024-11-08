@@ -5,9 +5,9 @@ package petriNet.app;
  * Arcs can have a weight, representing the number of tokens transferred during transitions.
  * This is a base class for different types of arcs.
  *
- * @author JIAO Yongshun, ZHU Xinlei
- * @date 08/11/2024
- * @version v1.0
+ * @author: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
+ * @version: v1.0
  * 
  */
 
