@@ -50,20 +50,4 @@ public class Transition {
         }
         return true;
     }
-
-    public List<ArcIn> getArcIn() {
-        return arcIn;
-    }
-
-    public void setArcIn(List<ArcIn> arcIn) {
-        this.arcIn = arcIn;
-    }
-
-    public List<ArcOut> getArcOut() {
-        return arcOut;
-    }
-
-    public void setArcOut(List<ArcOut> arcOut) {
-        this.arcOut = arcOut;
-    }
 }
