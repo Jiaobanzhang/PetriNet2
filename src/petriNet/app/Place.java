@@ -3,6 +3,9 @@ package petriNet.app;
 class Place {
     private int token; // 令牌数量
 
+    public Place() {
+    }
+
     public Place(int token) {
         this.token = token; // 构造函数，初始化令牌数量
     }

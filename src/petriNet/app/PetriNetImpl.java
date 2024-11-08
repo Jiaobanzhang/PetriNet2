@@ -1,5 +1,4 @@
 package petriNet.app;
-import petriNet.app.PetriNet;
 
 import java.util.List;
 
@@ -11,6 +10,9 @@ class PetriNetImpl implements PetriNet {
     private List<Place> places; // 地点列表
     private List<Arc> arcs; // 弧列表
     private List<Transition> transitions; // 转换列表
+
+    public PetriNetImpl() {
+    }
 
     public PetriNetImpl(List<Place> places, List<Arc> arcs, List<Transition> transitions) {
         this.places = places; // 初始化地点列表
@@ -51,9 +53,13 @@ class PetriNetImpl implements PetriNet {
     @Override
     public void step() {
         for (Transition transition : transitions) {
-            if (transition.isFireAble()) {
-                transition.doFire(); // 如果可以触发转换，执行它
-            }
+            fire(transition);
+        }
+    }
+
+    public void fire(Transition transition){
+        if(transition.isFireAble()){
+           transition.doFire();
         }
     }
 }

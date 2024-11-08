@@ -1,7 +1,4 @@
 package petriNet.app;
-import javafx.scene.shape.Arc;
-
-import java.util.List;
 
 // PetriNet接口
 interface PetriNet {
