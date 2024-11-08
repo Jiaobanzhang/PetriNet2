@@ -1,17 +1,21 @@
-/**
- * @autor: JIAO Yongshun, ZHU Xinlei
- * @date: 08/11/2024
- */
-
 package petriNet.app;
 
-// PetriNet接口
+/**
+ * Interface representing the basic structure of a Petri Net.
+ * Defines methods for managing places, arcs, and transitions.
+ *
+ * @autor: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
+ * @version: v1.0
+ * 
+ */
+
 interface PetriNet {
-    void addPlace(Place place); // 添加地点
-    void deletePlace(Place place); // 删除地点
-    void addArc(Arc arc); // 添加弧
-    void deleteArc(Arc arc); // 删除弧
-    void addTransition(Transition transition); // 添加转换
-    void deleteTransition(Transition transition); // 删除转换
-    void step(); // 执行一步
+    void addPlace(Place place);
+    void deletePlace(Place place);
+    void addArc(Arc arc);
+    void deleteArc(Arc arc);
+    void addTransition(Transition transition);
+    void deleteTransition(Transition transition);
+    void fireAll();
 }

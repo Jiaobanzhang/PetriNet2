@@ -1,7 +1,14 @@
 package petriNet.app;
+
 /**
- * @autor: JIAO Yongshun, ZHU Xinlei
- * @date: 08/11/2024
+ * Represents a generic arc in a Petri Net, connecting a Place with a Transition.
+ * Arcs can have a weight, representing the number of tokens transferred during transitions.
+ * This is a base class for different types of arcs.
+ *
+ * @author JIAO Yongshun, ZHU Xinlei
+ * @date 08/11/2024
+ * @version v1.0
+ * 
  */
 
 public class Arc {

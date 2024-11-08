@@ -3,8 +3,13 @@ package petriNet.app;
 import java.util.List;
 
 /**
+ * Implementation of the PetriNet interface.
+ * Manages places, arcs, and transitions, and executes the steps of the Petri Net.
+ * 
  * @autor: JIAO Yongshun, ZHU Xinlei
  * @date: 08/11/2024
+ * @version: v1.0
+ * 
  */
 
  class PetriNetImpl implements PetriNet {
@@ -52,7 +57,7 @@ import java.util.List;
     }
 
     @Override
-    public void step() {
+    public void fireAll() {
         for (Transition transition : transitions) {
             fire(transition);
         }

@@ -1,29 +1,34 @@
 package petriNet.app;
 
 /**
+ * Represents a Place in a Petri Net, holding a certain number of tokens.
+ * Tokens represent resources or conditions needed for transitions.
+ * 
  * @autor: JIAO Yongshun, ZHU Xinlei
  * @date: 08/11/2024
+ * @version: v1.0
+ * 
  */
 
 class Place {
-    private int token; // 令牌数量
+    private int token;
 
     public Place() {
     }
 
     public Place(int token) {
-        this.token = token; // 构造函数，初始化令牌数量
+        this.token = token;
     }
 
     public int getToken() {
-        return token; // 获取当前令牌数量
+        return token;
     }
 
     public void removeToken(int count) {
-        token -= count; // 移除指定数量的令牌
+        token -= count;
     }
 
     public void addToken(int count) {
-        token += count; // 添加指定数量的令牌
+        token += count;
     }
 }
