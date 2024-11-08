@@ -2,6 +2,7 @@ package petriNet.app;
 /**
  * @autor: 我亦无他，唯手熟尔
  */
+// Arc 类（抽象类）
 abstract class Arc {
     protected Place place; // 连接的地点
 

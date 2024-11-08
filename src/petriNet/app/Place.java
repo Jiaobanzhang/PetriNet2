@@ -1,7 +1,6 @@
-/**
- * @autor: 我亦无他，唯手熟尔
- */
-public class Place {
+package petriNet.app;
+
+class Place {
     private int token; // 令牌数量
 
     public Place(int token) {

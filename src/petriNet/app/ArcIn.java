@@ -1,7 +1,10 @@
+package petriNet.app;
+import javafx.scene.shape.Arc;
+
 /**
  * @autor: 我亦无他，唯手熟尔
  */
-public class ArcIn extends Arc{
+class ArcIn extends Arc {
     private int weight; // 权重
 
     public ArcIn(int weight, Place place) {

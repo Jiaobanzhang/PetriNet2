@@ -1,10 +1,10 @@
+package petriNet.app;
 import javafx.scene.shape.Arc;
 
-/**
- * @autor: 我亦无他，唯手熟尔
- */
+import java.util.List;
 
-public interface PetriNet {
+// PetriNet接口
+interface PetriNet {
     void addPlace(Place place); // 添加地点
     void deletePlace(Place place); // 删除地点
     void addArc(Arc arc); // 添加弧

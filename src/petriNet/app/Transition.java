@@ -1,10 +1,13 @@
+package petriNet.app;
+import petriNet.app.ArcIn;
+
 import java.util.List;
 
 /**
  * @autor: 我亦无他，唯手熟尔
  */
 
-public class Transition {
+class Transition {
     private List<Arc> arcIn; // 输入弧
     private List<Arc> arcOut; // 输出弧
 

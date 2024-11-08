@@ -1,9 +1,13 @@
+package petriNet.app;
+import petriNet.app.PetriNet;
+
 import java.util.List;
 
 /**
  * @autor: 我亦无他，唯手熟尔
  */
-public class PetriNetImpl implements PetriNet{
+// PetriNet实现类
+class PetriNetImpl implements PetriNet {
     private List<Place> places; // 地点列表
     private List<Arc> arcs; // 弧列表
     private List<Transition> transitions; // 转换列表
