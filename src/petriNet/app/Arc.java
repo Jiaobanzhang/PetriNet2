@@ -1,14 +1,15 @@
 package petriNet.app;
 /**
- * @autor: 我亦无他，唯手熟尔
+ * @autor: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
  */
-// Arc 类（抽象类）
+
 public class Arc {
-    private Place place; // 连接的地点
-    private int weight; // 权重
+    private Place place;
+    private int weight;
 
     public Arc(Place place) {
-        this.place = place; // 构造函数，初始化连接的地点
+        this.place = place;
     }
 
     public Arc(int weight, Place place) {

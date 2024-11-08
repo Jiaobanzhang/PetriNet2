@@ -3,51 +3,52 @@ package petriNet.app;
 import java.util.List;
 
 /**
- * @autor: 我亦无他，唯手熟尔
+ * @autor: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
  */
-// PetriNet实现类
-class PetriNetImpl implements PetriNet {
-    private List<Place> places; // 地点列表
-    private List<Arc> arcs; // 弧列表
-    private List<Transition> transitions; // 转换列表
+
+ class PetriNetImpl implements PetriNet {
+    private List<Place> places;
+    private List<Arc> arcs;
+    private List<Transition> transitions;
 
     public PetriNetImpl() {
     }
 
     public PetriNetImpl(List<Place> places, List<Arc> arcs, List<Transition> transitions) {
-        this.places = places; // 初始化地点列表
-        this.arcs = arcs; // 初始化弧列表
-        this.transitions = transitions; // 初始化转换列表
+        this.places = places;
+        this.arcs = arcs;
+        this.transitions = transitions;
     }
 
     @Override
     public void addPlace(Place place) {
-        places.add(place); // 添加地点
+        places.add(place);
     }
 
     @Override
     public void deletePlace(Place place) {
-        places.remove(place); // 删除地点
+        places.remove(place);
     }
 
     @Override
     public void addArc(Arc arc) {
-        arcs.add(arc); // 添加弧
+        arcs.add(arc);
     }
 
     @Override
     public void deleteArc(Arc arc) {
-        arcs.remove(arc); // 删除弧
+        arcs.remove(arc);
     }
 
     @Override
     public void addTransition(Transition transition) {
-        transitions.add(transition); // 添加转换
+        transitions.add(transition);
     }
 
     @Override
     public void deleteTransition(Transition transition) {
-        transitions.remove(transition); // 删除转换
+        transitions.remove(transition);
     }
 
     @Override

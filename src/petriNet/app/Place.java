@@ -1,5 +1,10 @@
 package petriNet.app;
 
+/**
+ * @autor: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
+ */
+
 class Place {
     private int token; // 令牌数量
 

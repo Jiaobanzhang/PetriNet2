@@ -1,8 +1,10 @@
 package petriNet.app;
 
 /**
- * @autor: 我亦无他，唯手熟尔
+ * @autor: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
  */
+
 class ArcIn extends Arc {
     public ArcIn(int weight, Place place) {
         super(weight, place);

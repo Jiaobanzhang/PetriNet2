@@ -1,3 +1,8 @@
+/**
+ * @autor: JIAO Yongshun, ZHU Xinlei
+ * @date: 08/11/2024
+ */
+
 package petriNet.app;
 
 // PetriNet接口
