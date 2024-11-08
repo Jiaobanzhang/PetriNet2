@@ -23,6 +23,10 @@ class Transition {
         this.arcOut = arcOut;
     }
 
+    /*
+     * Executes the transition by adding or removing tokens from the connected Places.
+     */
+
     public void doFire() {
         if(isFireAble()){
             for(ArcIn arcIn : arcIn){
@@ -34,6 +38,10 @@ class Transition {
         }
     }
 
+    /*
+     * Checks if the transition can occur by verifying all input arcs.
+     * @return true if the transition can proceed, false otherwise
+     */
     public boolean isFireAble() {
         for (ArcIn arc : arcIn) {
             if (!((ArcIn) arc).fireAble()) {

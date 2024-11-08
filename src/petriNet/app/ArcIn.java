@@ -16,7 +16,7 @@ class ArcIn extends Arc {
     }
 
     /**
-     * Executes the transition by removing tokens from the Place.
+     * Executes the transition by removing tokens from the source Place.
      */
     public void executeTransition() {
         this.getPlace().removeToken(this.getWeight());

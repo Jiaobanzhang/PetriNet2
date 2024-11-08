@@ -18,4 +18,5 @@ interface PetriNet {
     void addTransition(Transition transition);
     void deleteTransition(Transition transition);
     void fireAll();
+    void fire(Transition transition);
 }
