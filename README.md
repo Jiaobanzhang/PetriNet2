@@ -1,5 +1,7 @@
 # Petri Net Java Implementation
 
+Github : https://github.com/Jiaobanzhang/PetriNet2
+
 This project is a Java-based implementation of a Petri Net, a mathematical modeling language used for the description and analysis of distributed systems. The main components include `Place`, `Transition`, and `Arc` classes, along with specialized arcs for various behaviors.
 
 ## Class Diagram Modifications
