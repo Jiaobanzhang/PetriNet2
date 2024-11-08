@@ -44,7 +44,7 @@ public class Transition {
      */
     public boolean isFireAble() {
         for (ArcIn arc : arcIn) {
-            if (!((ArcIn) arc).fireAble()) {
+            if (! arc.fireAble()) {
                 return false;
             }
         }
