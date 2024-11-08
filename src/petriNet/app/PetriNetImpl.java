@@ -1,5 +1,3 @@
-import javafx.scene.shape.Arc;
-
 import java.util.List;
 
 /**
