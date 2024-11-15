@@ -27,6 +27,6 @@ public class ArcIn extends Arc {
      * @return true if the transition can proceed, false otherwise
      */
     public boolean fireAble() {
-        return this.getPlace().getToken() >= this.getWeight(); // 判断是否可以执行转换
+        return this.getPlace().getToken() >= this.getWeight(); // Déterminer si une conversion peut être effectuée
     }
 }
